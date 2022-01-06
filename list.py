@@ -836,7 +836,7 @@ def test201():
 		print("กำลังยิง")  
 
 
-i in range(num):
+For i in range(num):
 	time.sleep(1)
 	
 threading.Thread(target=test).start()
